@@ -1,0 +1,129 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:6826044880753660001",
+      "lastPropertyId": "7:5152593190164941261",
+      "name": "Card",
+      "properties": [
+        {
+          "id": "1:1875089108523228182",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2282536134673126891",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:6147183019226068375",
+          "name": "priority",
+          "type": 5,
+          "flags": 2
+        },
+        {
+          "id": "4:4659764539445002383",
+          "name": "unformattedText",
+          "type": 9
+        },
+        {
+          "id": "5:147447875066413915",
+          "name": "isComplete",
+          "type": 1,
+          "flags": 4
+        },
+        {
+          "id": "6:4216801690842575426",
+          "name": "dateStart",
+          "type": 10
+        },
+        {
+          "id": "7:5152593190164941261",
+          "name": "sectionId",
+          "indexId": "1:2561183533745611389",
+          "type": 11,
+          "flags": 1548,
+          "relationTarget": "Section"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:5924909970734220012",
+      "lastPropertyId": "4:3086731252320677275",
+      "name": "Section",
+      "properties": [
+        {
+          "id": "1:4944038250631369977",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6329751857199861942",
+          "name": "name",
+          "indexId": "3:296086791586068476",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "3:4517746071054527555",
+          "name": "projectId",
+          "indexId": "2:2086546503772427684",
+          "type": 11,
+          "flags": 1548,
+          "relationTarget": "Project"
+        },
+        {
+          "id": "4:3086731252320677275",
+          "name": "type",
+          "type": 5,
+          "flags": 2
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:6798918115966062777",
+      "lastPropertyId": "3:5326014577545004805",
+      "name": "Project",
+      "properties": [
+        {
+          "id": "1:5936856912688011910",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6383141625630680917",
+          "name": "name",
+          "indexId": "4:3288384630065773247",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "3:5326014577545004805",
+          "name": "isDefault",
+          "type": 1,
+          "flags": 4
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:6798918115966062777",
+  "lastIndexId": "4:3288384630065773247",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

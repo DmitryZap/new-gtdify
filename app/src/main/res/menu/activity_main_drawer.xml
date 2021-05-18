@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_project"
+            android:icon="@drawable/ic_baseline_all_inbox_24"
+            android:title="@string/inbox"/>
+        <item
+            android:id="@+id/nav_today"
+            android:icon="@drawable/ic_baseline_today_24"
+            android:title="@string/today"/>
+    </group>
+
+    <group
+        android:id="@+id/group_2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tasks"
+            android:icon="@drawable/ic_baseline_all_inbox_24"
+            android:title="@string/tasks"/>
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_baseline_date_range_24"
+            android:title="@string/calendar"/>
+        <item
+            android:id="@+id/nav_waiting"
+            android:icon="@drawable/ic_baseline_access_time_24"
+            android:title="@string/waiting"/>
+        <item
+            android:id="@+id/nav_habits"
+            android:icon="@drawable/ic_baseline_sentiment_very_satisfied_24"
+            android:title="@string/habits"/>
+        <item
+            android:id="@+id/nav_later"
+            android:icon="@drawable/ic_baseline_skip_next_24"
+            android:title="@string/sometime_later"/>
+    </group>
+
+    <!--    <group-->
+    <!--        android:id="@+id/group_3"-->
+    <!--        android:checkableBehavior="single">-->
+    <!--        <item android:title="@string/projects">-->
+    <!--            <menu>-->
+    <!--                <item-->
+    <!--                    android:id="@+id/item"-->
+    <!--                    android:title="@string/project_1">-->
+
+    <!--                </item>-->
+    <!--            </menu>-->
+    <!--        </item>-->
+    <!--    </group>-->
+    <group
+        android:id="@+id/group_3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_trash_bin"
+            android:icon="@drawable/ic_baseline_delete_24"
+            android:title="@string/trash_bin"/>
+    </group>
+</menu>

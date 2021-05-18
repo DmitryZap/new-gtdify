@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Style.GTDify.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="titleTextColor" tools:targetApi="l">?attr/colorOnPrimary</item>
+        <!--        <item name="android:textColorPrimary">@android:color/white</item>-->
+        <item name="actionMenuTextColor">?attr/colorOnPrimary</item>
+        <item name="fontFamily">@font/activist</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="Style.GTDify.Input" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="background">@drawable/input_background</item>
+    </style>
+
+    <style name="Style.GTDify.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">4dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="background">?attr/colorSecondary</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="Style.GTDify.GoogleAuthButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">4dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:drawableStart">@drawable/ic_google_icon_24</item>
+        <item name="background">@android:color/white</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="Style.GTDify.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">?attr/colorSecondary</item>
+        <item name="elevation">4dp</item>
+        <item name="fabSize">normal</item>
+    </style>
+</resources>

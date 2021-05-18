@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GTDify" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorAccent">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Background color. -->
+        <item name="android:colorBackground">@color/colorBackground</item>
+
+        <!-- Customize your theme here. -->
+        <!--        <item name="colorButtonNormal">@color/colorButton</item>-->
+        <!--        <item name="actionBarTheme">@style/Theme.GTDify.ToolbarTheme</item>-->
+        <!--        <item name="fontFamily">@font/raleway_font_regular</item>-->
+    </style>
+
+    <style name="Theme.GTDify.SplashScreen" parent="Theme.GTDify">
+        <item name="android:windowBackground">@drawable/splash_screen_background</item>
+    </style>
+
+    <style name="Theme.GTDify.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.GTDify.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.GTDify.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

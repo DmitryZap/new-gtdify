@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GTDify</string>
+    <string name="inbox">Inbox</string>
+    <string name="date_and_time">Date and time</string>
+    <string name="task_title">Enter the title</string>
+    <string name="task_description">Description</string>
+    <string name="today">Today</string>
+    <string name="tasks">Tasks</string>
+    <string name="calendar">Calendar</string>
+    <string name="waiting">Waiting</string>
+    <string name="habits">Habits</string>
+    <string name="sometime_later">Sometime later</string>
+    <string name="projects">Projects</string>
+    <string name="trash_bin">Trash bin</string>
+    <string name="project_1">Project #1</string>
+    <string name="mail">park.mail.ru</string>
+    <string name="add_button_icon">Add button icon</string>
+
+    <string name="card_empty_name_exception">Card name must not be empty</string>
+    <string name="ub_exception">Undefined behavior. Please try again</string>
+</resources>

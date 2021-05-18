@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GTDify</string>
+    <string name="inbox">Входящие</string>
+    <string name="date_and_time">Дата и время</string>
+    <string name="task_title">Введите название</string>
+    <string name="task_description">Описание</string>
+    <string name="today">Сегодня</string>
+    <string name="tasks">Задачи</string>
+    <string name="calendar">Календарь</string>
+    <string name="waiting">Ожидание</string>
+    <string name="habits">Привычки</string>
+    <string name="sometime_later">Когда-нибудь потом</string>
+    <string name="projects">Проекты</string>
+    <string name="trash_bin">Корзина</string>
+    <string name="project_1">Проект #1</string>
+    <string name="mail">park.mail.ru</string>
+    <string name="add_button_icon">Иконка добавления</string>
+
+    <string name="card_empty_name_exception">Название карточки не может быть пустым</string>
+    <string name="ub_exception">Непредвиденная ошибка. Попробуйте снова</string>
+</resources>
